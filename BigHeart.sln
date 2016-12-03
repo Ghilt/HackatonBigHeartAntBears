@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigHeart", "BigHeart\BigHeart.csproj", "{9DB2ACD3-9833-4497-A7B6-25FFBB722536}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{77360CED-4CDD-43B7-8DA3-4FA0806DBC75}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{B52A63DD-7D05-45CC-9AE9-CFF022D22257}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\BigHeart-WAWS-dev.json = PublishScripts\Configurations\BigHeart-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DB2ACD3-9833-4497-A7B6-25FFBB722536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB2ACD3-9833-4497-A7B6-25FFBB722536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB2ACD3-9833-4497-A7B6-25FFBB722536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB2ACD3-9833-4497-A7B6-25FFBB722536}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B52A63DD-7D05-45CC-9AE9-CFF022D22257} = {77360CED-4CDD-43B7-8DA3-4FA0806DBC75}
+	EndGlobalSection
+EndGlobal
